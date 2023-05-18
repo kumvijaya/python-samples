@@ -1,6 +1,8 @@
 """This gets the response for given url.
 This requires below lib from pypi
 requests
+How to use:
+python request_get.py --url http://api.github.com/repos/kumvijaya/semantic-release-tester/actions/workflows
 """
 import requests
 import os
